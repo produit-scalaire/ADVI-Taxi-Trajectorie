@@ -1,4 +1,4 @@
-# Graphical Models: Automatic Differentiation Variational Inference (ADVI) in PyTorch
+# Graphical Models: Automatic Differentiation Variational Inference (ADVI)
 
 ## Overview
 
@@ -15,7 +15,7 @@ This project is directly based on the work of Kucukelbir et al. (2016). While tr
 
 ## Objective
 
-The main objective of this notebook is to cluster 1.7 million taxi trajectories using a **non-conjugate Gaussian Mixture Model (GMM)** implemented in PyTorch.
+The main objective of this notebook is to cluster 1.7 million taxi trajectories using a **non-conjugate Gaussian Mixture Model (GMM)** implemented .
 
 Because exact Bayesian inference is intractable in high dimensions (computing $\int P(L, O) dL$ is impossible) and standard Markov Chain Monte Carlo (MCMC) methods are computationally prohibitive for such a large volume of data, we leverage the ADVI framework to scale the inference efficiently.
 
